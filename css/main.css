@@ -1,0 +1,234 @@
+/*codigo 2*/
+*{
+font-family: 'Ubuntu';
+}
+body {
+  overflow-x : hidden;
+}
+a {
+  text-decoration: none;
+}
+section{
+	background-color:#ffffff;
+	background-repeat: no-repeat;
+  font-size: cover;
+
+}
+
+.menu{
+  font-family: 'Josefin Sans';
+  position: fixed;
+  background-color: transparent;
+  z-index: 1;
+  left: 0.1%;
+  font-size: 16px;
+}
+
+.btn1, .btn-menu{
+  padding-top: 10px;
+   	background-color: #BBB1DC;
+     text-align: center;
+  }
+ .btn-menu{
+  border-bottom: 2px solid black;
+ }
+ .btn1:hover, .btn-menu:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+ }
+/*banner inicio*/
+#banner {
+  background-color: #BBB1DC;
+}
+.banner {
+  width: 100%;
+}
+/*fin*/
+/*imagen seccion*/
+.titulo-seccion {
+  width: 100%;
+}
+/*fin*/
+ /*clase yo*/
+
+ .yo {
+  font-size: 40px;
+ 	text-align: center;
+  padding-bottom: 50px;
+ }
+ .btn-enter {
+ 	margin-left: 37%;
+ 	color:white;
+ }
+
+ .perfil img {
+ 	padding-top:20px;
+  margin-right: auto;
+ 	margin-left: auto;	
+  padding-bottom: 20px;
+  border-radius: 50%;
+ }
+
+ .parraf{
+  padding-top: 200px;
+ 	padding-left: 5%;
+  padding-right: 5%;
+ 	font-size:20px;
+ }
+
+/*trabajos*/
+#trabajos {
+  background-color: #BBB1DC;
+  text-align: center; 
+  font-size: 30px;
+}
+/*fin*/
+/*conocimientos*/
+#conocimientos {
+  text-align: center;
+}
+.conocimiento {
+  margin-left: 5%;
+  padding-bottom: 20px;
+  border-radius: 50%;
+}
+.iconos {
+  margin-top: 100px;
+}
+/*fin*/
+/*contacto*/
+#contacto {
+  background-color: #BBB1DC;
+  text-align: center;
+  font-size: 25px;
+}
+ #contacto h1 {
+  margin-bottom: 40px;
+ }
+
+.redes a {
+  display: inline-block;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 25px; 
+  font-family: 'Josefin Sans';
+
+}
+#end {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/*fin*/
+
+
+
+
+
+.primera-caja {
+  margin-left: 2%;
+}
+/*EFECTO CSS DE IMAGEN*/
+.contenedor-img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height:400px;
+overflow: hidden;
+position: relative;
+text-align: center;
+cursor: default;
+background: #fff;
+
+}
+.contenedor-img .mascara,.contenedor-img .contenido {
+height: 400px;
+position: absolute;
+overflow: hidden;
+top: 0;
+left: 0
+}
+.contenedor-img img {
+display: block;
+position: relative;
+
+}
+.contenedor-img h2 {
+text-transform: uppercase;
+color: #000;
+text-align: center;
+position: relative;
+font-size: 17px;
+padding: 10px;
+background: rgba(0, 0, 0, 0.9);
+margin: 20px 0 0 0
+}
+.contenedor-img p {
+font-size: 12px;
+position: relative;
+color: #000;
+padding: 10px 20px 10px;
+text-align: center
+}
+.contenedor-img a.link {
+display: inline-block;
+text-decoration: none;
+padding: 7px 14px;
+background: #222;
+color: #fff;
+text-transform: uppercase;
+box-shadow: 0 0 1px #000
+}
+.contenedor-img a.link:hover {
+box-shadow: 0 0 5px #000
+}
+.trabajos-efecto img {
+transform: scaleY(1);
+transition: all 0.7s ease-in-out;
+
+}
+.trabajos-efecto .mascara {
+background-color: rgba(255, 255, 255, 0.9);
+transition: all 0.5s linear;
+opacity: 0;
+}
+.trabajos-efecto h2{
+border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+background: transparent;
+margin: 20px 40px 0px 40px;
+transform: scale(0);
+color: #000;
+transition: all 0.5s linear;
+opacity: 0;
+padding-top: 20px;
+}
+.trabajos-efecto p {
+color: #000;
+opacity: 0;
+transform: scale(0);
+transition: all 0.5s linear;
+}
+.trabajos-efecto a.link {
+opacity: 0;
+transform: scale(0);
+transition: all 0.5s linear;
+background-color: #BBB1DC;
+}
+
+.trabajos-efecto:hover img {
+transform: scale(10);
+opacity: 0;
+}
+.trabajos-efecto:hover .mascara {
+opacity: 1;
+}
+.trabajos-efecto:hover h2,
+.trabajos-efecto:hover p,
+.trabajos-efecto:hover a.link{
+transform: scale(1);
+opacity: 1;
+}
+
+/*fin!*/
